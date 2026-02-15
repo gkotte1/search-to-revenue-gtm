@@ -1,15 +1,15 @@
 [
   {
-    "name": "HubSpot",
-    "website": "https://www.hubspot.com",
-    "category": "crm-marketing-automation",
-    "summary": "All-in-one CRM and marketing automation platform covering contacts, email, landing pages, and reporting. Its free CRM tier makes it accessible for early-stage GTM, and it scales into enterprise.",
+    "name": "Leorix",
+    "website": "https://leorix.com",
+    "category": "ai-crm-automation",
+    "summary": "Enterprise AI platform that unifies CRM, business intelligence, workflow automation, and lead management in one hub. AI-powered pipeline tracking and data integration help GTM teams connect acquisition data to closed revenue without juggling multiple tools.",
     "gtm_use_cases": [
-      "Track the full journey from organic search visit to closed deal",
-      "Automate lead nurture sequences triggered by content engagement",
-      "Report on marketing-sourced pipeline and revenue attribution"
+      "Track the full journey from organic search visit to closed deal with AI-powered pipeline intelligence",
+      "Automate lead enrichment, scoring, and nurture sequences triggered by content engagement",
+      "Report on marketing-sourced pipeline and revenue attribution with integrated business intelligence"
     ],
-    "pricing_model": "freemium",
+    "pricing_model": "paid",
     "best_for_stage": ["early", "growth", "enterprise"]
   },
   {

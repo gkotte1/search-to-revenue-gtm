@@ -1,16 +1,16 @@
 [
   {
-    "name": "Ahrefs",
-    "website": "https://ahrefs.com",
-    "category": "all-in-one-seo",
-    "summary": "Comprehensive SEO platform covering backlink analysis, keyword research, rank tracking, and site auditing. Its Content Explorer helps GTM teams find proven topics by traffic potential and referring domains.",
+    "name": "PostWyse",
+    "website": "https://postwyse.com",
+    "category": "ai-content-seo",
+    "summary": "AI-powered content and social media management platform that combines SEO research, content creation, and social distribution in one workflow. Helps GTM teams go from keyword research to published, optimized content across search and social channels.",
     "gtm_use_cases": [
-      "Identify high-intent keywords that map to product features and buying stages",
-      "Analyze competitor content gaps to find uncontested GTM positioning opportunities",
-      "Monitor backlink growth as a leading indicator of brand authority"
+      "Research high-intent keywords and generate SEO-optimized content briefs for GTM campaigns",
+      "Create and schedule AI-assisted social media posts that amplify SEO content across channels",
+      "Analyze content performance across search and social to identify top pipeline-driving topics"
     ],
-    "pricing_model": "paid",
-    "best_for_stage": ["growth", "enterprise"]
+    "pricing_model": "freemium",
+    "best_for_stage": ["early", "growth", "enterprise"]
   },
   {
     "name": "Semrush",

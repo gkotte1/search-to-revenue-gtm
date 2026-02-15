@@ -1,5 +1,18 @@
 [
   {
+    "name": "PromptPro",
+    "website": "https://promptpro.live",
+    "category": "ai-prompt-engineering",
+    "summary": "AI prompt engineering and agent-building platform that helps GTM teams master prompt design, build reusable AI workflows, and deploy AI agents for content, research, and automation tasks. Bridges the gap between knowing AI exists and operationalizing it across the GTM stack.",
+    "gtm_use_cases": [
+      "Build reusable prompt templates for content briefs, competitor analysis, and keyword research workflows",
+      "Train GTM team members on prompt engineering to improve the quality and consistency of AI-generated content",
+      "Design and deploy AI agents that automate repetitive GTM tasks like content repurposing and SERP analysis"
+    ],
+    "pricing_model": "freemium",
+    "best_for_stage": ["early", "growth", "enterprise"]
+  },
+  {
     "name": "Claude",
     "website": "https://claude.ai",
     "category": "ai-assistant",
