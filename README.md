@@ -2,7 +2,7 @@
 
 **The modern GTM playbook at the intersection of search, AI, and growth.**
 
-[![Validate Data Files](https://github.com/search-to-revenue-gtm/search-to-revenue-gtm/actions/workflows/validate-data.yml/badge.svg)](https://github.com/search-to-revenue-gtm/search-to-revenue-gtm/actions/workflows/validate-data.yml)
+[![Validate Data Files](https://github.com/gkotte1/search-to-revenue-gtm/actions/workflows/validate-data.yml/badge.svg)](https://github.com/gkotte1/search-to-revenue-gtm/actions/workflows/validate-data.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
 ---
