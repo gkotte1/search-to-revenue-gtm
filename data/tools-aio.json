@@ -1,0 +1,197 @@
+[
+  {
+    "name": "Claude",
+    "website": "https://claude.ai",
+    "category": "ai-assistant",
+    "summary": "Anthropic's AI assistant with strong reasoning, long-context support, and careful instruction-following. Suited for GTM workflows that require nuanced writing, analysis, and multi-step content creation.",
+    "gtm_use_cases": [
+      "Generate detailed content briefs from keyword research data and competitor analysis",
+      "Draft and refine bottom-of-funnel comparison pages and feature narratives",
+      "Analyze large datasets of customer feedback to extract positioning insights"
+    ],
+    "pricing_model": "freemium",
+    "best_for_stage": ["early", "growth", "enterprise"]
+  },
+  {
+    "name": "ChatGPT",
+    "website": "https://chat.openai.com",
+    "category": "ai-assistant",
+    "summary": "OpenAI's conversational AI with broad general knowledge, plugin ecosystem, and vision capabilities. Widely adopted for content ideation, drafting, and quick research tasks.",
+    "gtm_use_cases": [
+      "Brainstorm content angles and headline variations for A/B testing",
+      "Summarize competitor pages and extract messaging patterns",
+      "Generate initial drafts for email sequences and nurture campaigns"
+    ],
+    "pricing_model": "freemium",
+    "best_for_stage": ["early", "growth", "enterprise"]
+  },
+  {
+    "name": "Jasper",
+    "website": "https://www.jasper.ai",
+    "category": "ai-content-platform",
+    "summary": "AI content platform with brand voice controls, templates, and team collaboration features. Designed for marketing teams scaling content production with consistent tone and messaging.",
+    "gtm_use_cases": [
+      "Scale blog and landing page production while maintaining brand voice consistency",
+      "Generate ad copy variations for paid search and social campaigns",
+      "Create localized content versions for multi-market GTM expansion"
+    ],
+    "pricing_model": "paid",
+    "best_for_stage": ["growth", "enterprise"]
+  },
+  {
+    "name": "Writer",
+    "website": "https://writer.com",
+    "category": "ai-content-platform",
+    "summary": "Enterprise AI writing platform with style guides, terminology management, and content governance. Built for organizations that need AI content generation with compliance and brand guardrails.",
+    "gtm_use_cases": [
+      "Enforce consistent product messaging across distributed content teams",
+      "Generate first drafts of technical content with approved terminology",
+      "Build repeatable content workflows with approval gates"
+    ],
+    "pricing_model": "paid",
+    "best_for_stage": ["growth", "enterprise"]
+  },
+  {
+    "name": "Perplexity AI",
+    "website": "https://www.perplexity.ai",
+    "category": "ai-research",
+    "summary": "AI-powered research engine that provides sourced, cited answers. Useful for GTM teams doing competitive research, market analysis, and content fact-checking.",
+    "gtm_use_cases": [
+      "Research competitor positioning and product features with source verification",
+      "Quickly compile market context and statistics for content briefs",
+      "Validate claims and data points before publishing GTM content"
+    ],
+    "pricing_model": "freemium",
+    "best_for_stage": ["early", "growth", "enterprise"]
+  },
+  {
+    "name": "Frase",
+    "website": "https://www.frase.io",
+    "category": "content-optimization",
+    "summary": "AI-powered SEO content tool that combines SERP research, content brief generation, and AI writing in one workflow. Bridges the gap between keyword research and published content.",
+    "gtm_use_cases": [
+      "Generate content briefs with SERP-derived outlines and questions to answer",
+      "Draft SEO-optimized articles with built-in optimization scoring",
+      "Analyze top-ranking content to identify gaps in existing pages"
+    ],
+    "pricing_model": "paid",
+    "best_for_stage": ["early", "growth"]
+  },
+  {
+    "name": "Copy.ai",
+    "website": "https://www.copy.ai",
+    "category": "ai-content-platform",
+    "summary": "AI platform with workflow automation for go-to-market content. Includes pre-built workflows for prospecting, content creation, and sales enablement.",
+    "gtm_use_cases": [
+      "Automate personalized outbound email generation from prospect data",
+      "Create product descriptions and feature pages at scale",
+      "Build AI workflows that turn product releases into multi-channel content"
+    ],
+    "pricing_model": "freemium",
+    "best_for_stage": ["early", "growth"]
+  },
+  {
+    "name": "Grain",
+    "website": "https://grain.com",
+    "category": "ai-sales-intelligence",
+    "summary": "AI-powered meeting recorder that captures, transcribes, and surfaces insights from sales and customer calls. Helps GTM teams close the loop between customer language and content strategy.",
+    "gtm_use_cases": [
+      "Extract objections and feature requests from sales calls to inform content topics",
+      "Build a library of customer voice clips for messaging validation",
+      "Share deal context across sales, marketing, and product teams"
+    ],
+    "pricing_model": "freemium",
+    "best_for_stage": ["growth", "enterprise"]
+  },
+  {
+    "name": "Otter.ai",
+    "website": "https://otter.ai",
+    "category": "ai-transcription",
+    "summary": "AI meeting transcription and note-taking tool. Automatically transcribes meetings and generates summaries, making it easy to mine customer conversations for GTM insights.",
+    "gtm_use_cases": [
+      "Transcribe customer interviews for messaging and positioning research",
+      "Generate meeting summaries for cross-functional GTM alignment",
+      "Search across call transcripts for recurring pain points and use cases"
+    ],
+    "pricing_model": "freemium",
+    "best_for_stage": ["early", "growth", "enterprise"]
+  },
+  {
+    "name": "Midjourney",
+    "website": "https://www.midjourney.com",
+    "category": "ai-image-generation",
+    "summary": "AI image generation tool that creates high-quality visuals from text prompts. GTM teams use it for blog illustrations, social graphics, and presentation visuals without a design team.",
+    "gtm_use_cases": [
+      "Create custom blog post illustrations that stand out in search results",
+      "Generate social media graphics for content distribution campaigns",
+      "Prototype visual concepts for landing pages and ad creative"
+    ],
+    "pricing_model": "paid",
+    "best_for_stage": ["early", "growth"]
+  },
+  {
+    "name": "Descript",
+    "website": "https://www.descript.com",
+    "category": "ai-video-audio",
+    "summary": "AI-powered video and audio editing platform that lets you edit media by editing text. Enables GTM teams to repurpose content across formats without specialized production skills.",
+    "gtm_use_cases": [
+      "Repurpose webinar recordings into short-form social clips",
+      "Create product demo videos with AI voice and screen recording",
+      "Turn podcast episodes into blog posts and social content"
+    ],
+    "pricing_model": "freemium",
+    "best_for_stage": ["early", "growth"]
+  },
+  {
+    "name": "Notion AI",
+    "website": "https://www.notion.so/product/ai",
+    "category": "ai-productivity",
+    "summary": "AI layer built into Notion's workspace that assists with writing, summarization, and data extraction. Useful for GTM teams already using Notion for content operations and planning.",
+    "gtm_use_cases": [
+      "Summarize meeting notes and extract action items for GTM sprints",
+      "Draft content outlines and briefs within existing editorial workflows",
+      "Translate raw product documentation into customer-facing content"
+    ],
+    "pricing_model": "paid",
+    "best_for_stage": ["early", "growth"]
+  },
+  {
+    "name": "Lex",
+    "website": "https://lex.page",
+    "category": "ai-writing",
+    "summary": "AI-native writing editor with a minimal interface. Provides inline AI suggestions as you write, designed for long-form content like blog posts, thought leadership, and documentation.",
+    "gtm_use_cases": [
+      "Draft long-form thought leadership content with AI-assisted flow",
+      "Overcome writer's block on founder-led narratives and positioning pieces",
+      "Write and iterate on product narratives with inline AI feedback"
+    ],
+    "pricing_model": "freemium",
+    "best_for_stage": ["early", "growth"]
+  },
+  {
+    "name": "Zapier",
+    "website": "https://zapier.com",
+    "category": "ai-automation",
+    "summary": "No-code automation platform connecting thousands of apps. Its AI features and natural language automation builder let GTM teams create content and data workflows without engineering support.",
+    "gtm_use_cases": [
+      "Automate content distribution from CMS to social channels and email",
+      "Connect form submissions to CRM enrichment and lead scoring workflows",
+      "Build AI-powered content pipelines that trigger on specific events"
+    ],
+    "pricing_model": "freemium",
+    "best_for_stage": ["early", "growth", "enterprise"]
+  },
+  {
+    "name": "n8n",
+    "website": "https://n8n.io",
+    "category": "ai-automation",
+    "summary": "Open-source workflow automation platform with AI agent capabilities. Gives technical GTM teams full control over automation logic, data flows, and AI integrations.",
+    "gtm_use_cases": [
+      "Build custom AI content pipelines with full control over prompts and logic",
+      "Create automated competitor monitoring and alerting workflows",
+      "Orchestrate multi-step GTM workflows combining APIs, AI, and databases"
+    ],
+    "pricing_model": "freemium",
+    "best_for_stage": ["early", "growth"]
+  }
+]

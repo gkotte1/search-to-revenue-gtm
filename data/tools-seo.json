@@ -1,0 +1,197 @@
+[
+  {
+    "name": "Ahrefs",
+    "website": "https://ahrefs.com",
+    "category": "all-in-one-seo",
+    "summary": "Comprehensive SEO platform covering backlink analysis, keyword research, rank tracking, and site auditing. Its Content Explorer helps GTM teams find proven topics by traffic potential and referring domains.",
+    "gtm_use_cases": [
+      "Identify high-intent keywords that map to product features and buying stages",
+      "Analyze competitor content gaps to find uncontested GTM positioning opportunities",
+      "Monitor backlink growth as a leading indicator of brand authority"
+    ],
+    "pricing_model": "paid",
+    "best_for_stage": ["growth", "enterprise"]
+  },
+  {
+    "name": "Semrush",
+    "website": "https://www.semrush.com",
+    "category": "all-in-one-seo",
+    "summary": "SEO and competitive intelligence platform with strong advertising, social media, and content marketing modules. Its Keyword Magic Tool and Position Tracking are core for GTM keyword strategies.",
+    "gtm_use_cases": [
+      "Build keyword universes segmented by funnel stage (TOFU, MOFU, BOFU)",
+      "Run competitor domain analysis to benchmark share-of-search",
+      "Track branded vs. non-branded keyword visibility over time"
+    ],
+    "pricing_model": "paid",
+    "best_for_stage": ["growth", "enterprise"]
+  },
+  {
+    "name": "Google Search Console",
+    "website": "https://search.google.com/search-console",
+    "category": "search-analytics",
+    "summary": "Free, first-party search performance data from Google. Essential for understanding which queries drive clicks, identifying indexation issues, and measuring Core Web Vitals.",
+    "gtm_use_cases": [
+      "Discover which search queries drive the most qualified traffic to key landing pages",
+      "Identify pages losing impressions that need content refreshes",
+      "Validate that new programmatic pages are indexed correctly"
+    ],
+    "pricing_model": "free",
+    "best_for_stage": ["early", "growth", "enterprise"]
+  },
+  {
+    "name": "Screaming Frog SEO Spider",
+    "website": "https://www.screamingfrog.co.uk/seo-spider/",
+    "category": "technical-seo",
+    "summary": "Desktop site crawler that surfaces indexability issues, broken links, redirect chains, and duplicate content. Free tier crawls up to 500 URLs, making it practical for early-stage technical audits.",
+    "gtm_use_cases": [
+      "Audit technical SEO health before a site relaunch or migration",
+      "Identify crawl-budget waste on large programmatic content sites",
+      "Generate XML sitemaps for new page sets"
+    ],
+    "pricing_model": "freemium",
+    "best_for_stage": ["early", "growth", "enterprise"]
+  },
+  {
+    "name": "Surfer SEO",
+    "website": "https://surferseo.com",
+    "category": "content-optimization",
+    "summary": "On-page optimization tool that uses SERP analysis to provide data-driven content guidelines. Its Content Editor scores pages in real time against top-ranking competitors.",
+    "gtm_use_cases": [
+      "Optimize existing blog posts to improve rankings for high-intent commercial queries",
+      "Create content briefs with target word counts, headings, and NLP terms",
+      "Scale content quality checks across a team of writers or AI drafts"
+    ],
+    "pricing_model": "paid",
+    "best_for_stage": ["growth", "enterprise"]
+  },
+  {
+    "name": "Clearscope",
+    "website": "https://www.clearscope.io",
+    "category": "content-optimization",
+    "summary": "Content optimization platform that grades content against search intent signals. Helps GTM content teams produce pages that rank without over-relying on guesswork.",
+    "gtm_use_cases": [
+      "Grade and improve bottom-of-funnel comparison and alternative pages",
+      "Standardize content quality across in-house writers and freelancers",
+      "Track content grades over time as SERPs evolve"
+    ],
+    "pricing_model": "paid",
+    "best_for_stage": ["growth", "enterprise"]
+  },
+  {
+    "name": "Google Trends",
+    "website": "https://trends.google.com",
+    "category": "keyword-research",
+    "summary": "Free tool showing search interest over time for any query. Useful for GTM teams to validate market timing, compare category terms, and spot seasonal patterns.",
+    "gtm_use_cases": [
+      "Validate whether a new product category has rising search demand",
+      "Compare branded search volume against competitors as a GTM health metric",
+      "Plan content calendar around seasonal search spikes"
+    ],
+    "pricing_model": "free",
+    "best_for_stage": ["early", "growth", "enterprise"]
+  },
+  {
+    "name": "PageSpeed Insights",
+    "website": "https://pagespeed.web.dev",
+    "category": "technical-seo",
+    "summary": "Free Google tool that measures Core Web Vitals and page performance. GTM teams use it to ensure landing pages meet performance thresholds that affect both rankings and conversion rates.",
+    "gtm_use_cases": [
+      "Diagnose slow landing pages that hurt both SEO and paid campaign quality scores",
+      "Benchmark page speed before and after site updates",
+      "Prioritize performance fixes by revenue impact of affected pages"
+    ],
+    "pricing_model": "free",
+    "best_for_stage": ["early", "growth", "enterprise"]
+  },
+  {
+    "name": "Schema.org Markup Validator",
+    "website": "https://validator.schema.org",
+    "category": "technical-seo",
+    "summary": "Validates structured data markup against Schema.org specifications. Proper schema implementation drives rich results that improve CTR from search.",
+    "gtm_use_cases": [
+      "Validate FAQ, HowTo, and Product schema on key landing pages",
+      "Ensure review and pricing schema renders correctly for commercial pages",
+      "Debug structured data errors flagged by Google Search Console"
+    ],
+    "pricing_model": "free",
+    "best_for_stage": ["early", "growth", "enterprise"]
+  },
+  {
+    "name": "Keyword Insights",
+    "website": "https://www.keywordinsights.ai",
+    "category": "keyword-research",
+    "summary": "AI-powered keyword clustering and search intent classification tool. Groups thousands of keywords into topical clusters and identifies whether Google expects informational, commercial, or transactional content.",
+    "gtm_use_cases": [
+      "Cluster keyword lists into content hub topics aligned to product categories",
+      "Classify search intent at scale to map keywords to funnel stages",
+      "Identify cannibalization opportunities where multiple pages target the same cluster"
+    ],
+    "pricing_model": "paid",
+    "best_for_stage": ["growth", "enterprise"]
+  },
+  {
+    "name": "Sitebulb",
+    "website": "https://sitebulb.com",
+    "category": "technical-seo",
+    "summary": "Website auditing tool with visual crawl maps and prioritized issue lists. Its hint system explains the SEO impact of each issue, making it accessible to non-technical GTM stakeholders.",
+    "gtm_use_cases": [
+      "Generate visual site architecture reports for GTM planning sessions",
+      "Prioritize technical SEO fixes by estimated traffic impact",
+      "Audit internal linking structure to improve link equity flow to money pages"
+    ],
+    "pricing_model": "paid",
+    "best_for_stage": ["growth", "enterprise"]
+  },
+  {
+    "name": "AlsoAsked",
+    "website": "https://alsoasked.com",
+    "category": "keyword-research",
+    "summary": "Scrapes People Also Ask data from Google and maps it as a tree. Useful for content ideation and understanding the question landscape around a topic.",
+    "gtm_use_cases": [
+      "Map the full question graph around a product category for FAQ and content planning",
+      "Identify long-tail informational queries that feed top-of-funnel traffic",
+      "Structure content hub architectures based on real user questions"
+    ],
+    "pricing_model": "freemium",
+    "best_for_stage": ["early", "growth"]
+  },
+  {
+    "name": "Moz Pro",
+    "website": "https://moz.com/products/pro",
+    "category": "all-in-one-seo",
+    "summary": "SEO toolset known for Domain Authority metric, keyword tracking, and on-page optimization. Its Link Explorer helps GTM teams assess the competitive landscape.",
+    "gtm_use_cases": [
+      "Track Domain Authority growth as a long-term brand investment metric",
+      "Identify link-building opportunities to high-authority sites in the target market",
+      "Audit on-page optimization factors for conversion-critical pages"
+    ],
+    "pricing_model": "paid",
+    "best_for_stage": ["growth", "enterprise"]
+  },
+  {
+    "name": "Screaming Frog Log File Analyser",
+    "website": "https://www.screamingfrog.co.uk/log-file-analyser/",
+    "category": "technical-seo",
+    "summary": "Analyzes server log files to reveal how search engine bots actually crawl a site. Critical for large or programmatic sites where crawl efficiency directly impacts indexation.",
+    "gtm_use_cases": [
+      "Verify that Googlebot is reaching and recrawling high-value landing pages",
+      "Identify pages receiving zero bot visits that are effectively invisible to search",
+      "Optimize crawl budget allocation for sites with large programmatic page sets"
+    ],
+    "pricing_model": "freemium",
+    "best_for_stage": ["growth", "enterprise"]
+  },
+  {
+    "name": "BrightEdge",
+    "website": "https://www.brightedge.com",
+    "category": "enterprise-seo",
+    "summary": "Enterprise SEO platform with AI-powered recommendations, real-time research, and content performance tracking. Built for large organizations managing SEO at scale across multiple domains and regions.",
+    "gtm_use_cases": [
+      "Manage SEO visibility across multiple product lines and regional domains",
+      "Generate automated SEO recommendations tied to revenue impact",
+      "Report on organic search contribution to pipeline for executive stakeholders"
+    ],
+    "pricing_model": "paid",
+    "best_for_stage": ["enterprise"]
+  }
+]

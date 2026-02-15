@@ -1,0 +1,119 @@
+# Validate JSON data files
+# This workflow ensures all tool JSON files in /data are valid and conform
+# to the expected schema. It runs on every push to main and on pull requests.
+
+name: Validate Data Files
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'data/**'
+  pull_request:
+    paths:
+      - 'data/**'
+
+jobs:
+  validate-json:
+    name: Validate JSON
+    runs-on: ubuntu-latest
+
+    steps:
+      # 1. Check out the repository
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      # 2. Set up Node.js (lightweight, no build system needed)
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      # 3. Validate that every JSON file in /data is syntactically valid
+      #    and conforms to the expected tool schema.
+      - name: Validate JSON files
+        run: |
+          node -e "
+          const fs = require('fs');
+          const path = require('path');
+
+          const dataDir = path.join(process.cwd(), 'data');
+          const files = fs.readdirSync(dataDir).filter(f => f.endsWith('.json'));
+
+          if (files.length === 0) {
+            console.error('No JSON files found in /data');
+            process.exit(1);
+          }
+
+          const requiredFields = ['name', 'website', 'category', 'summary', 'gtm_use_cases', 'pricing_model', 'best_for_stage'];
+          const validPricing = ['free', 'freemium', 'paid'];
+          const validStages = ['early', 'growth', 'enterprise'];
+          let hasErrors = false;
+
+          for (const file of files) {
+            const filePath = path.join(dataDir, file);
+            console.log('Validating: ' + file);
+
+            // Parse JSON
+            let data;
+            try {
+              data = JSON.parse(fs.readFileSync(filePath, 'utf8'));
+            } catch (e) {
+              console.error('  FAIL: Invalid JSON - ' + e.message);
+              hasErrors = true;
+              continue;
+            }
+
+            // Must be an array
+            if (!Array.isArray(data)) {
+              console.error('  FAIL: Root element must be an array');
+              hasErrors = true;
+              continue;
+            }
+
+            // Validate each tool entry
+            for (let i = 0; i < data.length; i++) {
+              const tool = data[i];
+              const prefix = '  Entry ' + i + ' (' + (tool.name || 'unnamed') + ')';
+
+              // Check required fields exist
+              for (const field of requiredFields) {
+                if (!(field in tool)) {
+                  console.error(prefix + ': missing field \"' + field + '\"');
+                  hasErrors = true;
+                }
+              }
+
+              // Validate pricing_model value
+              if (tool.pricing_model && !validPricing.includes(tool.pricing_model)) {
+                console.error(prefix + ': invalid pricing_model \"' + tool.pricing_model + '\"');
+                hasErrors = true;
+              }
+
+              // Validate best_for_stage values
+              if (Array.isArray(tool.best_for_stage)) {
+                for (const stage of tool.best_for_stage) {
+                  if (!validStages.includes(stage)) {
+                    console.error(prefix + ': invalid stage \"' + stage + '\"');
+                    hasErrors = true;
+                  }
+                }
+              }
+
+              // Validate gtm_use_cases is a non-empty array
+              if (Array.isArray(tool.gtm_use_cases) && tool.gtm_use_cases.length === 0) {
+                console.error(prefix + ': gtm_use_cases must not be empty');
+                hasErrors = true;
+              }
+            }
+
+            console.log('  ' + data.length + ' entries checked.');
+          }
+
+          if (hasErrors) {
+            console.error('Validation failed.');
+            process.exit(1);
+          } else {
+            console.log('All files valid.');
+          }
+          "

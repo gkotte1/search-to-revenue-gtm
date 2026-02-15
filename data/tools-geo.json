@@ -1,0 +1,197 @@
+[
+  {
+    "name": "HubSpot",
+    "website": "https://www.hubspot.com",
+    "category": "crm-marketing-automation",
+    "summary": "All-in-one CRM and marketing automation platform covering contacts, email, landing pages, and reporting. Its free CRM tier makes it accessible for early-stage GTM, and it scales into enterprise.",
+    "gtm_use_cases": [
+      "Track the full journey from organic search visit to closed deal",
+      "Automate lead nurture sequences triggered by content engagement",
+      "Report on marketing-sourced pipeline and revenue attribution"
+    ],
+    "pricing_model": "freemium",
+    "best_for_stage": ["early", "growth", "enterprise"]
+  },
+  {
+    "name": "Google Analytics 4",
+    "website": "https://analytics.google.com",
+    "category": "analytics",
+    "summary": "Google's event-based web and app analytics platform. Foundation for measuring user acquisition, engagement, and conversion across the entire GTM funnel.",
+    "gtm_use_cases": [
+      "Measure organic search contribution to signups and revenue events",
+      "Build acquisition channel reports for GTM performance reviews",
+      "Set up conversion funnels to identify drop-off points in the user journey"
+    ],
+    "pricing_model": "free",
+    "best_for_stage": ["early", "growth", "enterprise"]
+  },
+  {
+    "name": "Mixpanel",
+    "website": "https://mixpanel.com",
+    "category": "product-analytics",
+    "summary": "Product analytics platform focused on user behavior, retention, and funnel analysis. Helps GTM teams understand what users do after they arrive, not just how they got there.",
+    "gtm_use_cases": [
+      "Analyze activation funnels to identify where new signups drop off",
+      "Segment user behavior by acquisition channel to measure SEO traffic quality",
+      "Track feature adoption for product-led growth motions"
+    ],
+    "pricing_model": "freemium",
+    "best_for_stage": ["early", "growth", "enterprise"]
+  },
+  {
+    "name": "Amplitude",
+    "website": "https://amplitude.com",
+    "category": "product-analytics",
+    "summary": "Digital analytics platform with strong cohort analysis, experimentation, and behavioral segmentation. Connects acquisition data to in-product behavior for full-funnel GTM visibility.",
+    "gtm_use_cases": [
+      "Build cohort analyses comparing organic search users to other acquisition channels",
+      "Identify behavioral signals that predict conversion from free to paid",
+      "Measure the downstream revenue impact of specific content campaigns"
+    ],
+    "pricing_model": "freemium",
+    "best_for_stage": ["growth", "enterprise"]
+  },
+  {
+    "name": "Segment",
+    "website": "https://segment.com",
+    "category": "data-infrastructure",
+    "summary": "Customer data platform that collects, cleans, and routes event data to analytics, marketing, and warehouse tools. The plumbing layer that makes full-funnel GTM measurement possible.",
+    "gtm_use_cases": [
+      "Unify user identity across marketing site, product, and CRM",
+      "Route acquisition source data to analytics and activation tools",
+      "Build a single source of truth for GTM metrics across the stack"
+    ],
+    "pricing_model": "freemium",
+    "best_for_stage": ["growth", "enterprise"]
+  },
+  {
+    "name": "PostHog",
+    "website": "https://posthog.com",
+    "category": "product-analytics",
+    "summary": "Open-source product analytics suite with feature flags, session recordings, experimentation, and surveys. A single platform for understanding and optimizing the post-acquisition experience.",
+    "gtm_use_cases": [
+      "Run A/B tests on landing pages and onboarding flows to improve activation",
+      "Record user sessions to diagnose why organic traffic is not converting",
+      "Deploy feature flags to progressively roll out new GTM experiments"
+    ],
+    "pricing_model": "freemium",
+    "best_for_stage": ["early", "growth"]
+  },
+  {
+    "name": "Intercom",
+    "website": "https://www.intercom.com",
+    "category": "customer-engagement",
+    "summary": "Customer messaging platform with live chat, bots, and product tours. Connects the marketing site experience to in-product engagement and support.",
+    "gtm_use_cases": [
+      "Deploy targeted messages to organic search visitors based on the page they landed on",
+      "Build onboarding product tours that activate new signups",
+      "Use chatbot qualification to route high-intent visitors to sales"
+    ],
+    "pricing_model": "paid",
+    "best_for_stage": ["growth", "enterprise"]
+  },
+  {
+    "name": "Customer.io",
+    "website": "https://customer.io",
+    "category": "lifecycle-marketing",
+    "summary": "Event-driven messaging platform for email, push, SMS, and in-app messages. Lets GTM teams build behavior-triggered lifecycle campaigns tied to product events.",
+    "gtm_use_cases": [
+      "Build onboarding email sequences triggered by signup source and behavior",
+      "Send re-engagement campaigns to users who visited pricing pages but did not convert",
+      "Automate expansion and upsell messaging based on product usage milestones"
+    ],
+    "pricing_model": "paid",
+    "best_for_stage": ["growth", "enterprise"]
+  },
+  {
+    "name": "Clearbit",
+    "website": "https://clearbit.com",
+    "category": "data-enrichment",
+    "summary": "B2B data enrichment platform that appends firmographic and technographic data to leads and accounts. Helps GTM teams understand who is visiting and convert anonymous traffic into qualified leads.",
+    "gtm_use_cases": [
+      "Enrich inbound leads with company size, industry, and tech stack data",
+      "Identify high-value accounts visiting the site from organic search",
+      "Score and route leads based on ICP fit using enriched data"
+    ],
+    "pricing_model": "paid",
+    "best_for_stage": ["growth", "enterprise"]
+  },
+  {
+    "name": "Mutiny",
+    "website": "https://www.mutinyhq.com",
+    "category": "personalization",
+    "summary": "Website personalization platform for B2B that changes headlines, CTAs, and content based on visitor attributes. Turns generic SEO landing pages into targeted conversion experiences.",
+    "gtm_use_cases": [
+      "Personalize landing page messaging by industry or company size for organic visitors",
+      "A/B test different value propositions on high-traffic SEO pages",
+      "Increase conversion rates on bottom-of-funnel pages without building separate pages per segment"
+    ],
+    "pricing_model": "paid",
+    "best_for_stage": ["growth", "enterprise"]
+  },
+  {
+    "name": "Salesforce",
+    "website": "https://www.salesforce.com",
+    "category": "crm",
+    "summary": "Enterprise CRM platform that serves as the system of record for pipeline, deals, and revenue. Essential for connecting marketing-sourced leads to closed revenue in GTM reporting.",
+    "gtm_use_cases": [
+      "Attribute closed revenue back to organic search campaigns and content",
+      "Track lead-to-opportunity conversion rates by acquisition channel",
+      "Build GTM dashboards that connect content investment to pipeline generation"
+    ],
+    "pricing_model": "paid",
+    "best_for_stage": ["growth", "enterprise"]
+  },
+  {
+    "name": "Stripe",
+    "website": "https://stripe.com",
+    "category": "payments-billing",
+    "summary": "Payment processing and billing infrastructure. For product-led GTM motions, Stripe is where revenue actually happens and where self-serve conversion data lives.",
+    "gtm_use_cases": [
+      "Track self-serve conversion and revenue as the primary GEO outcome metric",
+      "Analyze trial-to-paid conversion rates segmented by acquisition source",
+      "Build revenue dashboards that close the loop from content to cash"
+    ],
+    "pricing_model": "paid",
+    "best_for_stage": ["early", "growth", "enterprise"]
+  },
+  {
+    "name": "Hotjar",
+    "website": "https://www.hotjar.com",
+    "category": "user-research",
+    "summary": "Heatmaps, session recordings, and surveys for understanding user behavior on websites. Helps GTM teams see what visitors actually do on landing pages.",
+    "gtm_use_cases": [
+      "Identify where organic search visitors drop off on key landing pages",
+      "Gather qualitative feedback from visitors about messaging clarity",
+      "Validate landing page layout and CTA placement with heatmap data"
+    ],
+    "pricing_model": "freemium",
+    "best_for_stage": ["early", "growth"]
+  },
+  {
+    "name": "Looker",
+    "website": "https://cloud.google.com/looker",
+    "category": "business-intelligence",
+    "summary": "Enterprise BI platform for building semantic data models and dashboards. Enables GTM teams to build cross-functional reporting that connects marketing, product, and revenue data.",
+    "gtm_use_cases": [
+      "Build a single GTM metrics dashboard spanning acquisition through retention",
+      "Create self-serve reports for GTM leaders to track SEO-to-revenue attribution",
+      "Model LTV by acquisition channel to inform GTM investment decisions"
+    ],
+    "pricing_model": "paid",
+    "best_for_stage": ["growth", "enterprise"]
+  },
+  {
+    "name": "Optimizely",
+    "website": "https://www.optimizely.com",
+    "category": "experimentation",
+    "summary": "Experimentation and feature management platform covering web, feature flags, and full-stack experiments. The system of record for testing GTM hypotheses.",
+    "gtm_use_cases": [
+      "Run A/B tests on SEO landing pages to optimize conversion rates",
+      "Test different pricing page layouts and CTAs for self-serve conversion",
+      "Experiment with onboarding flows to improve activation rates"
+    ],
+    "pricing_model": "paid",
+    "best_for_stage": ["growth", "enterprise"]
+  }
+]
